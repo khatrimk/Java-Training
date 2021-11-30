@@ -28,19 +28,21 @@ public class Account {
     }
 
 
-
     public void transferBalance(Account from, Account to, double amountToBeTransferred) {
         //Transferring balance logic
         //logic to check if balance is available
         from.accountBalance -= amountToBeTransferred;  // accountBalance = accountBalance - amountToBeTransferred
         to.accountBalance += amountToBeTransferred;  // accountBalance = accountBalance + amountToBeTransferred
-
-
     }
 
-    public void deposit(Account a, double amountToBeDeposit){
+    public void deposit(Account a, double amountToBeDeposit) {
         //logic to check negative balance deposited
         a.accountBalance += amountToBeDeposit;
 
     }
+
+
+
 }
+
+

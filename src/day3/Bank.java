@@ -27,9 +27,9 @@ public class Bank {
         System.out.println(a2.getAccountBalance());
 
 
-        //Transfer balance 500 from a1 to a2
-       // a1.setAccountBalance(3000-500);
-      //  a2.setAccountBalance(1000+500);
+//        Transfer balance 500 from a1 to a2
+//        a1.setAccountBalance(3000-500);
+//        a2.setAccountBalance(1000+500);
 
         a1.transferBalance(a1,a2,500);
 
