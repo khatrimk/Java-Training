@@ -6,17 +6,23 @@ public class EmployeeTest {
 
     public static void main(String[] args) {
 
-        Employee employee = new Employee("Manoj", "Kumar", "Khatri", 27, 10000, LocalDate.now());
-        Employee employee2 = new Employee("Shyam", "Limdu", 22, 20000, LocalDate.now());
-        Employee employee3 = new Employee("Raj", "Shah", 27, 30000, LocalDate.now());
 
-        employee.riseSalary(employee, 10);
-        employee.riseSalary(employee2, 12);
-        employee.riseSalary(employee3,8);
+        Employee employee = new Employee("Manoj", null, "Khatri","123456", 27, 10000, null);
+        Employee employee2 = new Employee("Shyam", "Limdu","121212", 22, 20000, LocalDate.now());
+        Employee employee3 = new Employee("Raj", "Shah","1213123", 22, 30000, LocalDate.now());
 
-        employee.displayEmployeeDetails(employee);
-        employee2.displayEmployeeDetails(employee2);
-        employee3.displayEmployeeDetails(employee3);
+
+        employee.riseSalary(10.1);
+
+
+
+        employee.displayEmployeeDetails();
+        employee2.displayEmployeeDetails();
+        employee3.displayEmployeeDetails();
+
+        System.out.println(Employee.getCount());
+        System.out.println(Employee.getCount());
+        System.out.println(Employee.getCount());
 
     }
 }

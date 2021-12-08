@@ -7,19 +7,15 @@ public class Bank {
         Account a2 = new Account();
 
 
-        //     a1.accountHolderName = "Manoj";
+
         a1.setAccountHolderName("Manoj");
-        //      a1.accountNumber = "10123";
         a1.setAccountNumber("10123");
-        //      a1.accountBalance = 3000;
         a1.deposit (a1,3000);
 
 
-        //      a2.accountHolderName = "Shyam";
+
         a2.setAccountHolderName("Shyam");
-        //      a2.accountNumber = "20123";
         a2.setAccountNumber("20123");
-        //       a2.accountBalance = 1000;
         a2.deposit(a2,1000);
 
 
@@ -34,7 +30,7 @@ public class Bank {
 
         a1.transferBalance(a1,a2,400);
 
-        a1.transferBalance(a1,a2,600);
+
 
 
         System.out.println(a1.getAccountBalance());

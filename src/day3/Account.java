@@ -37,7 +37,8 @@ public class Account {
 
     public void deposit(Account a, double amountToBeDeposit) {
         //logic to check negative balance deposited
-        a.accountBalance += amountToBeDeposit;
+        this.accountBalance += amountToBeDeposit;
+
 
     }
 
