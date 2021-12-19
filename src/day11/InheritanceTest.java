@@ -11,7 +11,7 @@ public class InheritanceTest {
         System.out.println(employee2.getSalary());
 
         Manager manager1 = new Manager("Lalan", "Sigh", "Yadav", 3000);
-       manager1.setBonus(200);
+        manager1.setBonus(200);
         System.out.println(manager1.toString());
         System.out.println(manager1.getSalary());
 
@@ -19,6 +19,7 @@ public class InheritanceTest {
         executive.setBonus(500);
         System.out.println(executive.toString());
         System.out.println(executive.getSalary());
+
 
         Programmer programmer = new Programmer("ASD", "QQQ", "WWW", 4000);
         System.out.println(programmer.toString());

@@ -2,6 +2,8 @@ package day11;
 
 public final class Executive extends Manager{
 
+
+
     public  Executive (String firstName, String middleName, String lastName, double salary){
        super(firstName, middleName, lastName, salary);
 
